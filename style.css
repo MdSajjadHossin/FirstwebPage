@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    background:url(./img/mohamed-nohassi-odxB5oIG_iA-unsplash.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    height: 70px;
+    width: 100%;
+    background:rgba(0, 0, 0,0.4);
+}
+
+.logo{
+    height: 50px;
+    width: 100px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar ul li{
+    list-style: none;
+    margin:0 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+
+.navbar ul li a{
+    text-decoration: node;
+    color: white;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family:'Roboto',sans-serif;
+    transition: .4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background:red;
+    border-radius: 2px;
+}
+
+.main .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    user-select: none;  
+}
+
+.center h1{
+    color: white;
+    font-size: 55px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+}
+.center h2{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    width: 885px;
+    text-align: center;
+}
+.center .button{
+    margin: 35px 280px;
+}
+.button button{
+    height: 50px;
+    width: 150px;
+    font: size 18px;
+    color: #ffb3b3;
+    background: red;
+    border: 1px solid #cc0000;
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: .4s;
+}
+.button .btn{
+    margin-left: 25px;
+}
+.button button:hover{
+    background:#cc0000;
+}
